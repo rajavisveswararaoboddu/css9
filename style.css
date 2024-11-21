@@ -1,0 +1,31 @@
+/* div
+{
+    background-color: rgb(44, 139, 221);
+    padding: 20px;
+    border: 2px solid ;
+    position: sticky;
+    top: 15px;
+    z-index: 2;
+    overflow: scroll;
+}
+::-webkit-scrollbar
+{
+    display: none;
+} */
+
+
+.nav
+{
+background-color:orangered;
+background-image: url(../ASSETS/IMAGES/cloud\ kithen\ pic.webp);
+height: 100px;
+width: 750px;
+background-size: 250px;
+display: inline;
+
+}
+.nav div,div h1
+{
+display: inline;
+padding: 10px;
+}
