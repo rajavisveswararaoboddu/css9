@@ -29,22 +29,95 @@
 
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./style.css">
-</head>
-<body>
+  <style>
+    .nav{
+      border: 4px solid;
+      width: 750px;
+  
+    }
+    h1{
+      display: inline;
+      padding: 20px;
+    }
+    a{
+      text-decoration: none;
+    }
+    .vw{
+      border: 4px solid;
+      height: 350px;
+      width:550px;
+      padding:10px;
+      overflow: scroll;
+    }
+    ::-webkit-scrollbar
+    {
+      display: none;
+    }
+    :target{
+      background-color: azure;
+    }
+  </style>
+  </head>
+  <body>
     <div class="nav">
-         <div><a href=""><h1>home</h1></a></div>
-       <div><a href=""> <h1>contactus</h1></a></div>
-       <div> <a href=""><h1>aboutus</h1></a></div>
-      <div><a href="">  <h1>login</h1></a></div>
-       <div> <a href=""><h1>sevices</h1></a></div>
+        <a href="#a1"><h1>home</h1></a>
+        <a href="#a2"> <h1>contactus</h1></a>
+        <a href="#a3"><h1>aboutus</h1></a>
+        <a href="#a4"> <h1>login</h1></a>
+        <a href="#a5"><h1>sevices</h1></a>
     </div>
-   <main style="overflow-y: scroll;">
-
-   </main>
-</body>
+    <div class="vw">
+      <main>
+      <section id="a1">
+        <h1>home</h1>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis
+          nostrum quia porro quibusdam amet magni, ea tempora quos praesentium
+          reprehenderit consequatur veniam, quaerat optio ab sint, quo
+          voluptatum vero. Autem.
+        </p>
+      </section>
+      <section id="a2">
+        <h1>contactus</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
+          saepe consectetur totam officiis corporis magni expedita similique
+          porro vitae! Odit architecto soluta ratione ipsa aliquid nisi dolores
+          numquam nihil esse!
+        </p>
+      </section>
+      <section id="a3">
+        <h1>aboutus</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt
+          voluptates fuga error consectetur suscipit similique explicabo dolorum
+          iusto facere velit illum, ducimus rerum, mollitia ex modi,
+          reprehenderit numquam neque molestiae.
+        </p>
+      </section>
+      <section id="a4">
+        <h1>login</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita
+          neque alias mollitia explicabo officiis culpa veniam quos fugiat,
+          dicta pariatur eveniet id, nam ratione consequatur maxime minima.
+          Dolore, fugiat eaque?
+        </p>
+      </section>
+      <section id="a5">
+        <h1>services</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
+          suscipit, incidunt fuga inventore ipsa culpa? Dignissimos deserunt
+          dicta consequuntur asperiores expedita sapiente commodi obcaecati
+          necessitatibus! Id porro asperiores placeat minima!
+        </p>
+      </section>
+    </main>
+    </div>
+  </body>
 </html>

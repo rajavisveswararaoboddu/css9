@@ -1,31 +1,26 @@
-/* div
-{
-    background-color: rgb(44, 139, 221);
+.nav{
+    border: 4px solid;
+    width: 750px;
+
+  }
+  h1{
+    display: inline;
     padding: 20px;
-    border: 2px solid ;
-    position: sticky;
-    top: 15px;
-    z-index: 2;
+  }
+  a{
+    text-decoration: none;
+  }
+  .vw{
+    border: 4px solid;
+    height: 350px;
+    width:550px;
+    padding:10px;
     overflow: scroll;
-}
-::-webkit-scrollbar
-{
+  }
+  ::-webkit-scrollbar
+  {
     display: none;
-} */
-
-
-.nav
-{
-background-color:orangered;
-background-image: url(../ASSETS/IMAGES/cloud\ kithen\ pic.webp);
-height: 100px;
-width: 750px;
-background-size: 250px;
-display: inline;
-
-}
-.nav div,div h1
-{
-display: inline;
-padding: 10px;
-}
+  }
+  :target{
+    background-color: azure;
+  }
